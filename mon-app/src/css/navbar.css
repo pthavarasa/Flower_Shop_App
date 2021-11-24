@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                        supported by Chrome, Edge, Opera and Firefox */
+}
+
+.navbar {
+    padding: 40px 60px 40px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-menu img {
+    width: 100px;
+}
+
+.right-menu li {
+    display: inline-block;
+}
+
+.right-menu li a {
+    font-size: 20px;
+    color: #414141;
+    vertical-align: middle;
+    margin-left: 20px;
+    line-height: 16px;
+    text-decoration: none;
+}
+
+.tools-icon {
+    position: relative;
+}
+
+.shop-cart-count {
+    padding: 1px 5.1px;
+    height: 18px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 8px;
+    min-width: 18px;
+    pointer-events: none;
+    white-space: nowrap;
+    background-color: #38322a;
+    position: absolute;
+    top: -6px;
+    right: -15px;
+}

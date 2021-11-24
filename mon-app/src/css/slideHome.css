@@ -1,0 +1,118 @@
+.content {
+    position: relative;
+    display: flex;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-item {
+    display: block;
+    position: relative;
+    align-items: center;
+    width: 100%;
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+
+.carousel-item-container {
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 0 90px;
+}
+
+.carousel-item-container-items {
+    position: relative;
+    padding: 10px 0 90px;
+}
+
+.carousel-item-container-items h2 {
+    font-size: 130px;
+    line-height: 120px;
+    color: #191919;
+    width: 35%;
+}
+
+.carousel-item-container-items .price-tag {
+    font-size: 58px;
+    color: #ff4b68;
+    font-weight: normal;
+    margin-right: 40px;
+    display: inline-block;
+    animation-delay: 0.5s;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.carousel-item-container-items .button {
+    width: 180px;
+    line-height: 55px;
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #3c3c3c;
+    background: #fff;
+    box-shadow: 0px 15px 40px 0px rgba(199, 202, 211, 0.5);
+    text-decoration: none;
+    border-radius: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.carousel-item-container-items img {
+    position: absolute;
+    right: 0;
+    top: 50px;
+    z-index: -1;
+    animation-delay: 1.2s;
+}
+
+.carousel-item-container-items .yf-circle {
+    top: -65px;
+}
+
+.carousel-indicator {
+    position: absolute;
+    right: auto;
+    left: 10px;
+    top: 30%;
+    bottom: auto;
+    display: block;
+    margin: 0;
+    list-style: none;
+}
+
+.carousel-indicator li {
+    transform: scale(1, 1.2);
+    width: 3px;
+    height: 20px;
+    border-radius: 3px;
+    margin: 5px 0;
+    cursor: pointer;
+    background: #e7e7e7;
+}
+
+.carousel-indicator li.active {
+    background: #454545;
+}
+
+.social-media {
+    position: absolute;
+    bottom: 100px;
+    transform: rotate(-90deg);
+    list-style-type: none;
+    left: -30px;
+}
+
+.social-media li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.social-media li img {
+    transform: rotate(90deg);
+}
